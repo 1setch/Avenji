@@ -153,3 +153,43 @@
     }
 
 }
+@media (max-width:520px){
+    .card{
+        min-height: 350px;
+        min-width: 300px;
+    }
+
+     .card img{
+        min-height: 35px;
+        min-width: 300px;
+        
+    }
+    .projects_imgs .slider {
+        min-height: 400px;
+        height: 100%;
+    }
+    .slider a{
+        height: 100%;
+    }
+
+}
+@media (max-width:450px){
+    .card{
+        min-height: 300px;
+        min-width: 260px;
+    }
+
+     .card img{
+        min-height: 300px;
+        min-width: 260px;
+        
+    }
+    .projects_imgs .slider {
+        min-height: 350px;
+        height: 100%;
+    }
+    .slider a{
+        height: 100%;
+    }
+
+}
