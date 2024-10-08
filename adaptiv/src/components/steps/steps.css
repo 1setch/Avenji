@@ -1,0 +1,140 @@
+.steps_body{
+    height: 100%;
+    /* //background-color: rgb(81, 44, 167); */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1376px;
+    width: 100%;
+    margin-top: 120px;
+    padding-top: 1px;
+    
+}
+
+.steps_description{
+    font-family: 'Roboto';
+}
+.steps_body h2{
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+}
+.steps_body h3{
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+.steps_title{
+    grid-row: span 6;
+}
+.steps_description{
+    width: 325px;
+    margin-bottom: 20px;
+}
+.steps_description p{
+    margin-bottom: 0;
+    margin-top: 22px;
+}
+.steps_description_item{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.steps_description_item p{
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.steps_description_item hr{
+    grid-column: span 2;
+    width: 100%;
+    margin: 0;
+    /* height: 2px;*/
+    /* background-color:black;  */
+}
+
+@media (max-width:1225px){
+    .steps_body{
+        grid-template-columns: 1fr 1fr 1fr ;
+        margin-top: 48px;
+        gap: 20px;
+    }
+    .steps_title{
+        grid-column: span 3;
+    }
+   
+    .steps_description_item{
+        grid-template-columns: 1fr;
+        /* width: 343px; */
+        height: 250px;
+    }
+    .steps_description_item hr{
+        grid-column: span 1 ;
+        margin-top: auto;
+        margin-bottom: 0;
+        width: 100%;
+    }
+    .steps_description{
+        grid-column: span 3;
+    }
+
+}
+
+@media (max-width:1105px){
+    .steps_body{
+        grid-template-columns: 1fr 1fr;
+        margin-top: 48px;
+        gap: 20px;
+    }
+    .steps_title{
+        grid-column: span 2;
+    }
+   
+    .steps_description_item{
+        grid-template-columns: 1fr;
+        /* width: 343px; */
+        height: 250px;
+    }
+    .steps_description_item hr{
+        grid-column: span 1 ;
+        margin-top: auto;
+        margin-bottom: 0;
+        width: 100%;
+    }
+    .steps_description{
+        grid-column: span 2;
+    }
+
+}
+@media (max-width:920px){
+    .steps_body h2{
+        font-size: 28px;
+    }
+    .steps_description_item h3{
+        font-size: 24px;
+    }
+    .steps_title{
+        height: 33px;
+        grid-column: span 1;
+    }
+}
+
+@media (max-width:775px){
+    .steps_title{
+        grid-column: span 0;
+    }
+    .steps_description{
+        grid-column: span 1;
+    }
+    .steps_body{
+        grid-template-columns: 1fr ;
+        margin-top: 48px;
+    }
+    .steps_description_item{
+        grid-template-columns: 1fr;
+    }
+    .steps_description_item hr{
+        grid-column: span 1 ;
+        width: 100%;
+    }
+
+}

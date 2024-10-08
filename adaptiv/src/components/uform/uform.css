@@ -1,0 +1,99 @@
+.uform_body{
+    max-width: 1376px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.uform_body h2{
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+    height: 66px;
+}
+.uform_body form{
+    display: flex;
+    flex-direction: column;
+}
+.uform_body form button{
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: 400;
+    background-color:#212529;
+    color:white;
+    border: none;
+    border-radius: 0;
+    width: 176px;
+    height: 46px;
+    font-size: 16px; 
+    padding: 0;
+    margin-top: 20px;
+}
+.uform_body form button:hover{
+    background-color:#DDD7C0;
+    color:black;
+
+}
+.uform_body form button:focus{
+    background-color:#CBC6B2;
+    color:black;
+
+}
+form p{
+    margin: 0;
+    margin-top: 32px;
+    margin-bottom: 72px;
+}
+form input{
+    margin: 0;
+    max-width: 562px;
+    margin-bottom: 16px;
+    height: 31px;
+    font-size: 16px;
+}
+form input::placeholder{
+    color:black;
+    font-family: 'Helvetica';
+    font-size: 16px;
+}
+form img{
+    width: 250px;
+    height: 36px;
+    margin-top: 40px;
+}
+/*  */
+@media (max-width:1376px){
+    .uform_body{
+       grid-template-columns: 1fr;
+    }
+    .form_preview{
+        display: none;
+    }
+   
+}
+@media (max-width:920px){
+    .uform_body h2{
+        font-size: 28px;
+        height: 39px;
+    }
+    .uform_body p{
+        margin-top: 20px;
+        margin-bottom: 32px;
+    }
+   
+  }
+
+input {
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+  input:focus {
+    border: none;
+    border-bottom: 2px solid #DDD7C0;
+    outline: 0;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }

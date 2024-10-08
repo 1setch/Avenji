@@ -1,0 +1,68 @@
+.about_body{
+    margin: 0 auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1376px;
+    width: 100%;
+    margin-top: 120px;
+    padding-top: 1px;
+    
+}
+
+.about_body h2{
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+}
+.about_body  .mob_title{
+    display: none;
+}
+
+.about_body h3{
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+.about_title{
+    grid-row: span 4;
+}
+.about_description{
+    max-width: 446px;
+    margin-bottom: 24px;
+}
+.about_description_item{
+    margin-top: 24px;
+}
+.about_description_item p{
+    font-family: 'Roboto';
+    max-width: 117px;
+    font-weight: 400;
+}
+
+
+@media (max-width:1025px){
+    .about_body{
+        grid-template-columns: 1fr ;
+        margin-top: 48px;
+    }
+    .about_body  .pc_title{
+        display: none;
+    }
+    .about_body  .mob_title{
+        display: block;
+    }
+
+}
+@media (max-width:920px){
+    .about_body h2{
+        font-size: 28px;
+    }
+    .about_description_item h3{
+        font-size: 24px;
+    }
+    .about_description_item{
+        margin-top: 16px;
+    }
+
+}

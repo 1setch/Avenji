@@ -1,0 +1,65 @@
+.testimonials_body{
+    max-width: 1376px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+
+.testimonials_body h2{
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+}
+.reviews{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 32px;
+    gap: 20px;
+
+}
+.review_item{
+    display:flexbox;
+    max-width: 445px;
+    height: 327px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 40px;
+}
+.rewiev_author{
+    font-weight: bold;
+    height: 25px;
+    margin-top: 32px;
+}
+.review_item p{
+    margin: 0;
+    margin-top: 20px;
+}
+@media (max-width:1035px){
+    .reviews{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 28px;
+        
+    }
+   
+}
+@media (max-width:920px){
+    .testimonials_body h2{
+        font-size: 28px;
+    }
+}
+
+@media (max-width:820px){
+    .reviews{
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    
+    }
+   
+}
+.rewiew_img{
+    width: 40px;
+    height: 30px;
+    margin: 0 auto;
+}
