@@ -116,6 +116,14 @@
         height: 33px;
         grid-column: span 1;
     }
+    .steps_description_item hr{
+        
+        margin-top: 0;
+        margin-bottom: auto;
+    }
+    .steps_description_item p{
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width:775px){
@@ -128,6 +136,7 @@
     .steps_body{
         grid-template-columns: 1fr ;
         margin-top: 48px;
+        gap: 0;
     }
     .steps_description_item{
         grid-template-columns: 1fr;
