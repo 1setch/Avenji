@@ -133,3 +133,23 @@
     
     
 } */
+@media (max-width:570px){
+    .card{
+        min-height: 400px;
+        min-width: 350px;
+    }
+
+     .card img{
+        min-height: 400px;
+        min-width: 350px;
+        
+    }
+    .projects_imgs .slider {
+        min-height: 400px;
+        height: 100%;
+    }
+    .slider a{
+        height: 100%;
+    }
+
+}

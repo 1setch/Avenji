@@ -48,6 +48,9 @@
     .testimonials_body h2{
         font-size: 28px;
     }
+    .testimonials_body{
+        margin-top: 48px;
+    }
 }
 
 @media (max-width:820px){
