@@ -81,6 +81,10 @@ form img{
         margin-top: 20px;
         margin-bottom: 32px;
     }
+    form img{
+        margin: 0 auto;
+        margin-top: 28px;
+    }
    
   }
 
